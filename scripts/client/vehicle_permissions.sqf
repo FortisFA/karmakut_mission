@@ -17,13 +17,13 @@ while { true } do {
 	if ( (vehicle player ) isKindOf "Tank" ) then {
 		if ( ! (  getPlayerUID player in ARMOR_PERMS ) ) then {
 			_doeject = true;
-			hint localize "STR_PERMISSION_NO_ARMOR";
+			hint localize "No permission";
 		};
 	} else {
 		if ( (vehicle player ) isKindOf "Air" ) then {
 			if ( ! (  getPlayerUID player in AIR_PERMS ) ) then {
 				_doeject = true;
-				hint localize "STR_PERMISSION_NO_AIR";
+				hint localize "No permission";
 			};
 		};
 	};
