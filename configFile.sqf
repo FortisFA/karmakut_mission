@@ -29,6 +29,7 @@
   */
 repair_buildings = [];
 
+Arsenal_typename = "B_supplyCrate_F"; 
 
 medical_vehicles = [
     "vtx_HH60",
