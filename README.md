@@ -1,2 +1,1 @@
-# Karmakut-Logistics-System
-A ACEX and ACE 3 dependant build system
+port of core elements from previous KC_LIB
