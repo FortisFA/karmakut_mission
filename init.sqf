@@ -4,7 +4,7 @@
 
 
 
-//[] call compileFinal preprocessFileLineNumbers "scripts\shared\init_shared.sqf";
+[] call compileFinal preprocessFileLineNumbers "scripts\shared\init_shared.sqf";
 [] call compileFinal preprocessFileLineNumbers "karmakut\init_shared.sqf";
 
 if (isServer) then {
